@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Portfolio and CV of Your Name." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <div class="top">
+      <div>
+        <h1>Your Name</h1>
+        <p class="subtitle">Aerospace Engineer • Space Systems • GNC/Autonomy (edit)</p>
+        <p class="links">
+          <a href="mailto:you@email.com">you@email.com</a> ·
+          <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a> ·
+          <a href="https://github.com/yourusername">GitHub</a> ·
+          <a href="assets/CV.pdf">CV (PDF)</a>
+        </p>
+      </div>
+      <img class="avatar" src="assets/profile.jpg" alt="Profile photo">
+    </div>
+
+    <nav class="nav">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#photos">Photos</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        2–4 lines: who you are, what roles you want, what you’re good at.
+        Keep it direct and job-focused.
+      </p>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience & Internships</h2>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Intern — NASA JPL (edit)</h3>
+          <span class="meta">Pasadena, CA · Jun 202X – Sep 202X</span>
+        </div>
+        <ul>
+          <li>1-line impact/result (numbers if possible).</li>
+          <li>What you built/analyzed, tools used.</li>
+          <li>Outcome: improved X / enabled Y.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Rocket Engineering Team Founder / Lead — University Team</h3>
+          <span class="meta">City · 202X – 202X</span>
+        </div>
+        <ul>
+          <li>Founded & led a team of N people; managed timelines/budget.</li>
+          <li>Designed/validated subsystem X; achieved Y.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <div class="grid">
+        <article class="project">
+          <img src="assets/project1.jpg" alt="Project 1 screenshot/photo">
+          <div class="project-body">
+            <h3>Project Title 1</h3>
+            <p>1–2 lines: what it is + why it matters.</p>
+            <p class="tags">Python · MATLAB · Simulink</p>
+            <p class="proj-links">
+              <a href="https://github.com/yourusername/project">Code</a>
+              <a href="https://link-to-report-or-demo">Report/Demo</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <img src="assets/project2.jpg" alt="Project 2 screenshot/photo">
+          <div class="project-body">
+            <h3>Project Title 2</h3>
+            <p>1–2 lines: what you implemented + outcome.</p>
+            <p class="tags">C++ · ROS · Optimization</p>
+            <p class="proj-links">
+              <a href="https://github.com/yourusername/project2">Code</a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Technical</h3>
+          <ul>
+            <li>Modeling & simulation</li>
+            <li>Controls / GNC</li>
+            <li>Orbit mechanics</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Python, MATLAB/Simulink</li>
+            <li>C/C++, Git</li>
+            <li>STK / GMAT (edit)</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Languages</h3>
+          <ul>
+            <li>Italian (native)</li>
+            <li>English (C1/C2)</li>
+            <li>German/Dutch (edit)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos" class="card">
+      <h2>Photos</h2>
+      <p class="muted">A few project photos with short captions.</p>
+      <div class="gallery">
+        <figure>
+          <img src="assets/photo1.jpg" alt="Photo 1">
+          <figcaption>Caption: what’s happening, your role.</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/photo2.jpg" alt="Photo 2">
+          <figcaption>Caption: test campaign / prototype / demo.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Your Name · Built with GitHub Pages</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
