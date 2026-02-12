@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name — Portfolio</title>
-  <meta name="description" content="Portfolio and CV of Your Name." />
+  <title>Fabio Meloni — Website</title>
+  <meta name="description" content="Portfolio and CV of Fabio Meloni." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="container">
     <div class="top">
       <div>
-        <h1>Your Name</h1>
-        <p class="subtitle">Aerospace Engineer • Space Systems • GNC/Autonomy (edit)</p>
+        <h1>Fabio Meloni</h1>
+        <p class="subtitle">Engineer for Aerospace, Defence, Chemical, and Energy</p>
         <p class="links">
-          <a href="mailto:you@email.com">you@email.com</a> ·
-          <a href="https://www.linkedin.com/in/yourprofile">LinkedIn</a> ·
-          <a href="https://github.com/yourusername">GitHub</a> ·
+          <a href="mailto:fabioski0101@gmail.com">fabioski0101 at gmail.com</a> ·
+          <a href="https://www.linkedin.com/in/fabioski01">LinkedIn</a> ·
+          <a href="https://github.com/fabioski01">GitHub</a> ·
           <a href="assets/CV.pdf">CV (PDF)</a>
         </p>
       </div>
@@ -25,6 +25,8 @@
 
     <nav class="nav">
       <a href="#experience">Experience</a>
+      <a href="#student-team">Student Team and Leadership</a>
+      <a href="#education">Education</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#photos">Photos</a>
@@ -35,9 +37,37 @@
     <section class="card">
       <h2>About</h2>
       <p>
-        2–4 lines: who you are, what roles you want, what you’re good at.
-        Keep it direct and job-focused.
+        Graduate aerospace engineer specialized in modeling & simulation, scientific computing, and experimental hardware.
+        Experienced in numerical methods, Python/MATLAB coding, dataset analysis, HPC workflows, and laboratory/field
+        hardware testing in aerospace and robotics. 
+        Authorized to work in the US and in the EU. Available full-time and for relocation.
       </p>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Delft University of Technology</h3>
+          <span class="meta">MSc in Aerospace Engineering — Space track — Spaceflight Dynamics profile</span>
+        </div>
+        <ul>
+          <li>Thesis conducted at NASA JPL. Focus on modeling, dynamics, and simulation of a distributed system for detection of planetary layers coupling (lithosphere, atmosphere, ionosphere, magnetosphere perturbations).</li>
+          <li>Relevant coursework: space instrumentation, planetary sciences (incl. astrophysics, space weather, planetary interiors), astrodynamics, systems engineering, engineering optimization, machine learning/AI, remote sensing, signal processing.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Politecnico di Torino</h3>
+          <span class="meta">BSc in Aerospace Engineering</span>
+        </div>
+        <ul>
+          <li>Final grade 99%, honours school, top 2%.</li>
+          <li>Founder of the university’s rocketry team (PoliTo Rocket Team).</li>
+        </ul>
+      </div>
     </section>
 
     <section id="experience" class="card">
@@ -45,24 +75,71 @@
 
       <div class="item">
         <div class="item-head">
-          <h3>Intern — NASA JPL (edit)</h3>
-          <span class="meta">Pasadena, CA · Jun 202X – Sep 202X</span>
+          <h3>Research Intern — NASA Jet Propulsion Laboratory</h3>
+          <span class="meta">Pasadena, CA, USA · Feb 2025 - Nov 2025</span>
         </div>
         <ul>
-          <li>1-line impact/result (numbers if possible).</li>
-          <li>What you built/analyzed, tools used.</li>
-          <li>Outcome: improved X / enabled Y.</li>
+          <li>Worked on an early phase project for NASA Innovative Advanced Concept.</li>
+          <li>Performed mathematical modeling of cost and performance for an Earth Observation/planetary satellite constellation.</li>
+          <li>Analyzed the dynamics of spacecraft reconfiguration and time-propellant trade-offs.</li>
+          <li>Researched scientific background and produced a Science Traceability Matrix, with a payload design with observation and instrumentation requirements.</li>
+          <li>Presented results to JPL scientific and engineering team; writing a journal paper in preparation for publication.</li>
         </ul>
       </div>
 
       <div class="item">
         <div class="item-head">
-          <h3>Rocket Engineering Team Founder / Lead — University Team</h3>
-          <span class="meta">City · 202X – 202X</span>
+          <h3>Launch Engineer Intern - Rocket Factory Augsburg</h3>
+          <span class="meta">Augsburg, Germany · July 2024 - Nov 2024</span>
         </div>
         <ul>
-          <li>Founded & led a team of N people; managed timelines/budget.</li>
-          <li>Designed/validated subsystem X; achieved Y.</li>
+          <li>Software Engineering: designed and implemented flight safety analysis tools in Python to visualize 
+            the launcher trajectory and the stage' impact points and dispersion areas; implementing an automated 
+            pipeline from GNC outputs to flight safety simulations to establish the flight termination gate.</li>
+          <li>Launch Operations: project management, CONOPS, safety and operations reviews; technical 
+            documentation for the launch license of the RFA ONE small-lift rocket.</li>
+          <li>Launch Systems: modelling and analysis for ground fuel storage and pumping system of a liquid launcher.</li> 
+          <li>Hardware: worked on the assembly of the payload mount structural system</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="student-team" class="card">
+      <h2>Student Team and Leadership</h2>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Chief Engineer, Founder/President — PoliTo Rocket Team (Student Team)</h3>
+          <span class="meta">Politecnico di Torino · Turin (Italy) · Oct 2021 – Aug 2023</span>
+        </div>
+        <ul>
+          <li>Was bored with courses so I founded with friends the rocket engineering team of my university.</li>
+          <li>I did pretty much everything at the beginning, then organised the work recruiting 90+ undergrad and graduate students.</li>
+          <li>Led the design of a reusable solid-propelled sounding rocket; designed and assembled hardware, wrote and reviewed software, analyses, and technical documentation; launched and recovered the rocket in Germany, US, and Portugal, winning various technical awards.</li>
+          <li>Started the R&amp;D of a bi-liquid rocket engine, coordinated the work of divisions, managed procurement and use of resources, set performance standards.</li>
+        </ul>
+        <p class="muted">Reference: <a href="mailto:alfonso.pagani@polito.it">alfonso.pagani@polito.it</a></p>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>FEM/CFD Analyst — Team S55 (Student Team)</h3>
+          <span class="meta">Politecnico di Torino · Turin (Italy) · Oct 2021 – Aug 2022</span>
+        </div>
+        <ul>
+          <li>Performed FEM structural analysis in aeronautical applications; developed and implemented FEM models.</li>
+          <li>Ran CFD simulations and prepared aerodynamic meshes to support structural studies.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <div class="item-head">
+          <h3>Launch Operations Lead Engineer — Delft Aerospace Rocket Engineering (Student Team)</h3>
+          <span class="meta">TU Delft · Delft (Netherlands) · Nov 2023 – Nov 2024</span>
+        </div>
+        <ul>
+          <li>Produced Python launch simulations, flight dispersion analyses, and impact area analysis.</li>
+          <li>Interacted with civilian and military spaceports to organise testing and launch of a bi-liquid sounding rocket.</li>
         </ul>
       </div>
     </section>
@@ -74,12 +151,12 @@
         <article class="project">
           <img src="assets/project1.jpg" alt="Project 1 screenshot/photo">
           <div class="project-body">
-            <h3>Project Title 1</h3>
-            <p>1–2 lines: what it is + why it matters.</p>
-            <p class="tags">Python · MATLAB · Simulink</p>
+            <h3>Cavour Rocket</h3>
+            <p>Designed, built, tested, and launched a reusable rocket, while building a team from scratch.</p>
+            <p class="tags">Systems Engineering, Structures, Avionics, Propulsion</p>
             <p class="proj-links">
-              <a href="https://github.com/yourusername/project">Code</a>
-              <a href="https://link-to-report-or-demo">Report/Demo</a>
+              <!-- <a href="https://github.com/yourusername/project">Code</a> -->
+              <a href="https://www.politorocketteam.it/projects/Cavour">Website</a>
             </p>
           </div>
         </article>
@@ -87,11 +164,11 @@
         <article class="project">
           <img src="assets/project2.jpg" alt="Project 2 screenshot/photo">
           <div class="project-body">
-            <h3>Project Title 2</h3>
-            <p>1–2 lines: what you implemented + outcome.</p>
-            <p class="tags">C++ · ROS · Optimization</p>
+            <h3>GEOINT Hackaton</h3>
+            <p>Project for detection and analysis of military activity using satellite imagery and machine learning.</p>
+            <p class="tags">Python, Machine Learning</p>
             <p class="proj-links">
-              <a href="https://github.com/yourusername/project2">Code</a>
+              <a href="https://github.com/fabioski01/GEOINT">Code</a>
             </p>
           </div>
         </article>
@@ -102,28 +179,63 @@
       <h2>Skills</h2>
       <div class="skills">
         <div>
-          <h3>Technical</h3>
+          <h3>Aerospace</h3>
           <ul>
             <li>Modeling & simulation</li>
-            <li>Controls / GNC</li>
-            <li>Orbit mechanics</li>
+            <li>Astrodynamics</li>
+            <li>Systems Engineering</li>
+            <li>Materials and Thermal Management</li>
+            <li>Controls-GNC</li>
           </ul>
         </div>
         <div>
-          <h3>Tools</h3>
+          <h3>Coding</h3>
           <ul>
-            <li>Python, MATLAB/Simulink</li>
-            <li>C/C++, Git</li>
-            <li>STK / GMAT (edit)</li>
+            <li>Python, MATLAB/Simulink, TeX (Advanced)</li>
+            <li>C/C++, HTML, CSS, Lua, ROS (Basic)</li>
+            <li>Git/Gitlab/Github</li>
+            <li>HPC workflows, parallel computing</li>
+            <li>Linux/Unix/Bash/Shell</li>
+            <li>Machine learning and data analysis</li>
           </ul>
         </div>
         <div>
           <h3>Languages</h3>
           <ul>
             <li>Italian (native)</li>
-            <li>English (C1/C2)</li>
-            <li>German/Dutch (edit)</li>
+            <li>English (native-like) (C2 IELTS)</li>
+            <li>French (fluent) (Quebec high school diploma)</li>
+            <li>Basic in Spanish, Dutch, German. Can learn if needed</li>
           </ul>
+        </div>
+        <div>
+            <h3>Hard Skills</h3>
+            <ul>
+                <li>Electrical (wiring, systems, switches)</li>
+                <li>Carpentry and masonry (basic)</li>
+                <li>Mechanical (Cars)</li>
+                <li>3D printing</li>
+                <li>Electronic (boards and home networks)</li>
+                <li>Chemistry (basic lab experience, solid rocket engine management)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Engineering Software</h3>
+            <ul>
+                <li>CAD: SolidWorks, AutoCAD</li>
+                <li>FEM/CFD: ANSYS, OpenFOAM, ANSA, Abaqus</li>
+                <li>Thermal Analysis: ESATAN-TMS</li>
+                <li>Astrodynamics/Rockets: SaVoir, ASTOS, STK</li> 
+            </ul>
+        </div>
+        <div>
+            <h3>Science</h3>
+            <ul>
+                <li>Thermodynamics and Heat Transfer</li>
+                <li>Planetary/Earth Science</li>
+                <li>Astrophysics and Astronomy</li>
+                <li>Plasma and Nuclear Physics</li> 
+            </ul>
         </div>
       </div>
     </section>
@@ -134,17 +246,27 @@
       <div class="gallery">
         <figure>
           <img src="assets/photo1.jpg" alt="Photo 1">
-          <figcaption>Caption: what’s happening, your role.</figcaption>
+          <figcaption>My sounding solid propelled rocket and I before the second launch at the 2023 Spaceport America Cup</figcaption>
         </figure>
         <figure>
-          <img src="assets/photo2.jpg" alt="Photo 2">
-          <figcaption>Caption: test campaign / prototype / demo.</figcaption>
+          <img src="assets/photo2.jpeg" alt="Photo 2">
+          <figcaption>At NASA in 2025 during my MSc.</figcaption>
         </figure>
       </div>
     </section>
 
+    <section id="interests" class="card">
+      <h2>Things I’m Interested In</h2>
+      <ul>
+        <li>Decarbonizing industry, transportation and energy.</li>
+        <li>Exploring and colonizing space.</li>
+        <li>Re‑industrializing the US and Europe.</li>
+        <li>Building cool stuff and learning how it works.</li>
+      </ul>
+    </section>
+
     <footer class="footer">
-      <p>© <span id="year"></span> Your Name · Built with GitHub Pages</p>
+      <p>© <span id="year"></span> Fabio Meloni</p>
     </footer>
   </main>
 
